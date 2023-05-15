@@ -1,0 +1,15 @@
+1 创建一个customUI名称的文件夹
+2 创建一个customUI名称的文本文件，把功能区代码拷进去，如果是中文显示，需要在最
+  前面添加中文标识。
+3 把Excel文件的通过改后辍xlsx为zip。然后双击打开，把customUI文件夹拖进压缩包
+
+4 把_rels文件夹从压缩包中拖出来，然后在xml文件的最后一句之前添加以下代码，创建链接：
+<Relationship 
+    Id="customUIRelID"
+   Type="http://schemas.microsoft.com/office/2006/relationships/ui/extensibility"
+    Target="customUI/customUI.xml"/>
+
+5 把excel文件后辍还原。打开文件就可以看到修改后的功能区了。
+
+6 如果需要启用宏，再另存为xlsm格式的文件
+

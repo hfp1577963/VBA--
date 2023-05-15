@@ -1,0 +1,3 @@
+
+ 1 点击dotnetfx3setup.exe下载和安装NET Framework3.0
+ 2 点击OfficeCustomUIEditorSetup.msi安装UI编辑工具

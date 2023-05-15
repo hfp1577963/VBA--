@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="gbk" ?>
+<customUI xmlns="http://schemas.microsoft.com/office/2006/01/customui">
+ <ribbon>
+   <tabs>
+     <tab id="tab1" label="我的选项卡1" insertBeforeMso="TabInsert">
+     </tab>
+     <tab id="tab2" label="我的选项卡2">
+     </tab>
+   </tabs>
+ </ribbon>
+</customUI>
