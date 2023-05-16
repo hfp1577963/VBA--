@@ -1,0 +1,37 @@
+<customUI xmlns="http://schemas.microsoft.com/office/2006/01/customui">
+    <ribbon>
+        <tabs>
+            <tab id = "rxtab_Demo"
+                label="Demo"
+                insertBeforeMso="TabHome">
+                <group id="rxgrp_Demo"
+                    label="Demo Group">
+				<!-- hengxianghezi  -->
+                    <box id="rxboxFormat1"
+                        boxStyle="horizontal"
+<!-- boxStyle	(none)	horizontal,vertical	horizontal	(none)  -->
+                        visible="true">
+                        <toggleButton idMso="Bold"/>
+                        <toggleButton idMso="Italic"/>
+                        <toggleButton idMso="Underline"/>
+                        <toggleButton idMso="UnderlineDouble"/>
+                    </box>
+				<!-- zu nei shui ping fenge xian -->
+                    <separator id="rxsep1"/>
+                    <button id="rxbtnHappy1"
+                        imageMso="HappyFace"
+                        label="Button 1"/>
+                    <button id="rxbtnHappy2"
+                        imageMso="HappyFace"
+                        label="Button 2"/>
+                    <button id="rxbtnHappy3"
+                        imageMso="HappyFace"
+                        label="Button 3"/>
+                    <button id="rxbtnHappy4"
+                        imageMso="HappyFace"
+                        label="Button 4"/>
+                </group>
+            </tab>
+        </tabs>
+    </ribbon>
+</customUI>

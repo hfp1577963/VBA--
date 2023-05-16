@@ -1,0 +1,21 @@
+<customUI xmlns="http://schemas.microsoft.com/office/2006/01/customui">
+ <ribbon>
+   <tabs>
+     <tab id="tab1" label="My Tab1">
+       <group id="g1" label="My group1">
+           <comboBox id="C1" label="Sheet Select1" onChange="FFF"> 
+               <item id="item1" label="Sheet1" imageMso="_1" /> 
+               <item id="item2" label="Sheet2" imageMso="_2" /> 
+               <item id="item3" label="Sheet3" imageMso="_3" /> 
+           </comboBox>
+<separator id="rxsep1"/>
+           <dropDown id="Dr1" showLabel="true" label="Sheet Select2" onAction="GGG">  
+               <item id="Dept1" label="Sheet1" /> 
+               <item id="Dept2" label="Sheet2" />    
+               <item id="Dept3" label="Sheet3" /> 
+           </dropDown>
+       </group>
+     </tab>
+   </tabs>
+ </ribbon>
+</customUI>

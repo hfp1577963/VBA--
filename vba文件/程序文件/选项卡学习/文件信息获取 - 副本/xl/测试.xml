@@ -1,0 +1,14 @@
+<customUI xmlns="http://schemas.microsoft.com/office/2006/01/customui">
+ <ribbon>
+   <tabs>
+     <tab id="tab1" label="My Tab1">
+       <group id="g1" label="My group1">
+       <button id="b1" label="Copy" onAction="AA" size="large" imageMso="Copy"/>
+       <separator id="S1" />
+       <button id="b2" label="Paste" onAction="AA" imageMso="Paste"/>
+       <button id="b3" label="pig" onAction="AA" imageMso="Piggy"/>
+       </group>
+     </tab>
+   </tabs>
+ </ribbon>
+</customUI>

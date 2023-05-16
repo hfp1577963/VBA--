@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="gbk" ?>   
+<customUI xmlns="http://schemas.microsoft.com/office/2009/07/customui">
+  <ribbon startFromScratch="false">
+    <tabs>
+      <tab id="customTab" label="test">
+        <group label="group2" id="g2">
+          <button id="b1" label="b1" imageMso="ZoomToSelection" size="large" onAction="Callback"></button>
+          <button id="customButton2" label="Custom Button2" image="x2" onAction="Callback" size="large"></button>
+        </group>
+      </tab>
+    </tabs>
+  </ribbon>
+</customUI>
