@@ -3,7 +3,7 @@
 	<ribbon startFromScratch="false">
 		<tabs>
                         <tab id="myTab" label="mytab">
-                           <!--  µÚÒ»×é£º»ù±¾°´Å¥Ñ§Ï° -->
+                           <!--  ç¬¬ä¸€ç»„ï¼šåŸºæœ¬æŒ‰é’®å­¦ä¹  -->
                         <group id="Group1" label="first_group">
                         
                                 <buttonGroup id="bg1">   
@@ -39,9 +39,9 @@
                                         onAction="myButton_ClickHandler" />
                                 </box>
                         </group>
-                          <!--  µÚ2×é£º¸´Ñ¡¿òÑ§Ï° -->
+                          <!--  ç¬¬2ç»„ï¼šå¤é€‰æ¡†å­¦ä¹  -->
                         <group id="Group2" label="second_group">
-                                <!--    ¸´Ñ¡×éºÏºÍÏÂÀ­¿òÀàÐÍ-->
+                                <!--    å¤é€‰ç»„åˆå’Œä¸‹æ‹‰æ¡†ç±»åž‹-->
                                 <box
                                         id="GP_bx1"
                                         boxStyle="vertical"
@@ -53,7 +53,7 @@
                                         <comboBox id="rxcboSelectSheet"
                                                 label="Activate:"
                                                 onChange="rxcboSelectSheet_Click">
-                                                  <!--  onchange ÊÂ¼þ´úÂë -->
+                                                  <!--  onchange äº‹ä»¶ä»£ç  -->
                                                 <item id="rxitemcboSelectSheet1"
                                                 label="Sheet1"/>
                                                 <item id="rxitemcboSelectSheet2"
@@ -67,18 +67,18 @@
                                         <item id="Dept2" label="Sheet2" />    
                                         <item id="Dept3" label="Sheet3" /> 
                                         </dropDown>
-                                       <!-- comboxÑ¡ÔñÒ²¿ÉÒÔ´«²Î
+                                       <!-- comboxé€‰æ‹©ä¹Ÿå¯ä»¥ä¼ å‚
                                         'Callback for C1 onChange
                                         Sub FFF(control As IRibbonControl, text As String)
                                         End Sub
-                                        dropdownÖ»ÄÜÑ¡Ôñ
+                                        dropdownåªèƒ½é€‰æ‹©
                                         'Callback for Dr1 onAction
                                         Sub GGG(control As IRibbonControl, id As String, index As Integer)
                                         End Sub
                                 -->
                                 </box>                     
                         </group>
-                                <!--  µÚÈý×é£º²Ëµ¥¿Ø¼þÑ§Ï° -->
+                                <!--  ç¬¬ä¸‰ç»„ï¼šèœå•æŽ§ä»¶å­¦ä¹  -->
                         <group id="Group3" label="third_group">
 
                                 <menu id="munResources"
@@ -96,7 +96,7 @@
                                                 onAction="rxsharedLinks_click"
                                                 tag="http://www.excelguru.ca/blog/2006/12/01/ribbon-example-table-of-contents"/>
                                         <button id="rxbtnRondeBruin"
-                                                label="Ron deBruin¡¯s Site (Excel MVP)"
+                                                label="Ron deBruinâ€™s Site (Excel MVP)"
                                                 onAction="rxsharedLinks_click"
                                                 tag="http://www.rondebruin.nl/ribbon.htm"/>
                                         <button id="rxbtnAccessFreak"
@@ -104,12 +104,12 @@
                                                 onAction="rxsharedLinks_click"
                                                 tag="http://www.access-freak.com"/>
                                         <button id="rxbtnPatrickSchmid"
-                                                label="Patrick Schmid¡¯s RibbonX Forum"
+                                                label="Patrick Schmidâ€™s RibbonX Forum"
                                                 onAction="rxsharedLinks_click"
                                                 tag="http://pschmid.net/office2007/forums"/>
                                         <menuSeparator id="rxmSepAuthors"
                                                 title="Authors Sites"/>
-                                                <!--×Ó²Ëµ¥ÐÎÊ½-->
+                                                <!--å­èœå•å½¢å¼-->
                                         <menu
                                                 id="submenu"
                                                 imageMso="FilterAdvancedByForm"
@@ -135,62 +135,53 @@
                                 </menu>
 
                         </group>
-                                <!--  µÚËÄ×é£ºcheckBox editBox   toggleButtonÑ§Ï° -->
+                                <!--  ç¬¬å››ç»„ï¼šcheckBox editBox   toggleButtonå­¦ä¹  -->
                                 <!--
                                         Option Explicit
-                                        ¶ÔÓ¦µÄ¸´Ñ¡¿ò»Øµ÷º¯ÊýÐ´·¨
+                                        å¯¹åº”çš„å¤é€‰æ¡†å›žè°ƒå‡½æ•°å†™æ³•
                                         'Callback for c1 onAction
                                         Sub CC(control As IRibbonControl, pressed As Boolean)
                                         If pressed = True Then
-                                        MsgBox "ÏÔÊ¾0Öµ"
+                                        MsgBox "æ˜¾ç¤º0å€¼"
                                         Else
-                                        MsgBox "²»ÏÔÊ¾0Öµ"
+                                        MsgBox "ä¸æ˜¾ç¤º0å€¼"
                                         End If
                                         End Sub
 
                                         'Callback for t1 onAction
                                         Sub TT(control As IRibbonControl, pressed As Boolean)
                                         If pressed = True Then
-                                        MsgBox "ÏÔÊ¾Êý×Ö"
+                                        MsgBox "æ˜¾ç¤ºæ•°å­—"
                                         Else
-                                        MsgBox "²»ÏÔÊ¾Êý×Ö"
+                                        MsgBox "ä¸æ˜¾ç¤ºæ•°å­—"
                                         End If
                                         End Sub
 
 
                                 -->
                         <group id="Group4" label="four_group">
-                                  <!--  £ºcheckBox Ê¹ÓÃ´ò¹³ºÍ²»´ò¹´Á½¸ö×´Ì¬  -->
-                                
+                                  <!--  ï¼šcheckBox ä½¿ç”¨æ‰“é’©å’Œä¸æ‰“å‹¾ä¸¤ä¸ªçŠ¶æ€  -->
+                                <checkBox id="rxchkR1C1"
+                                label="R1C1 Formulas"
+                              
+                                getPressed="rxchkR1C1_getPressed"
+                                onAction="rxchkR1C1_click"/>
 
-                                  <box
-                                        id="GP4_bx1"
-                                        boxStyle="vertical"
-                                        visible="true"
-                                       
-                                        
-                                  >
-                                        <checkBox id="rxchkR1C1"
-                                        label="R1C1 Formulas"
-                                
-                                        getPressed="rxchkR1C1_getPressed"
-                                        onAction="rxchkR1C1_click"/>
+                                <!--  ï¼šeditbox å¡«å†™è¯¦ç»†ä¿¡æ¯ -->
+                                <editBox id="rxtxtRename"
+                                 label="Rename Sheet to:"
+                                 imageMso="SignatureLineInsert"
+                                 keytip="R"
+                                 sizeString="123456789012345"
+                                 onChange="rxtxtRename_Click"/>
+                                       <!--  ï¼šåˆ‡æ¢æŒ‰é’® æŒ‰ä¸‹å’Œå¼¹èµ· -->
+                                 <toggleButton id="rxtglHideExpense"
+                                  label="Hide Expenses"
+                                  imageMso="FieldList"
+                                  size="large"
+                                  onAction="rxtglHideExpense_Click"/>
 
-                                        <!--  £ºeditbox ÌîÐ´ÏêÏ¸ÐÅÏ¢ -->
-                                        <editBox id="rxtxtRename"
-                                        label="Rename Sheet to:"
-                                        imageMso="SignatureLineInsert"
-                                        keytip="R"
-                                        sizeString="123456789012345"
-                                        onChange="rxtxtRename_Click"/>
-                                        <!--  £ºÇÐ»»°´Å¥ °´ÏÂºÍµ¯Æð -->
-                                        <toggleButton id="rxtglHideExpense"
-                                        label="Hide Expenses"
-                                        imageMso="FieldList"
-                                        size="large"
-                                        onAction="rxtglHideExpense_Click"/>
-
-                                </box>
+                        
                         
                         
                         
@@ -199,7 +190,7 @@
                         
                         </group>
                 </tab>
-                 <!--   ²Î¿¼µÄÄÚ²¿Í¼±êÃû³Æ
+                 <!--   å‚è€ƒçš„å†…éƒ¨å›¾æ ‡åç§°
                                 MailMergeHelper  
                                 MailMergeHighlightMergeFields
                                 MailMergeMatchFields
